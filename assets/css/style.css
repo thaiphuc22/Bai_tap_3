@@ -19,8 +19,8 @@ body{
 
 .card {
     margin: 48px auto;
-    height: 640px;
-    width: 520px;
+    height: 608px;
+    width: 500px;
     background-color: white;
     border-radius: 8px;
     padding-top: 24px;
@@ -60,7 +60,7 @@ body{
 
 .card__head__right {
     position: absolute;
-    right: 24px;
+    right: 8px;
 }
 
 .card__head__right i {
@@ -84,6 +84,7 @@ body{
 .card__content {
     padding: 24px;
     margin-bottom: 0px;
+    text-align: justify;
 }
 
 .card__content span {
@@ -101,13 +102,13 @@ body{
 
 .card__footer__right {
     left: unset;
-    right: 24px;
+    right: 8px;
 }
 
 .card__footer__left i {
     font-size: 32px;
     color:var(--secondary-color);
-    margin: 8px;
+    margin-right: 16px;
 }
 .card__footer__right i {
     font-size: 48px;
